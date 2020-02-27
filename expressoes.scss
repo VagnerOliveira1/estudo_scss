@@ -1,0 +1,18 @@
+@each $item in carro, moto, bicicleta, aviao {
+  .#{$item} {
+    @if ($item == carro) {
+      padding: 20px;
+    }
+    @if ($item == moto) {
+      margin: 30px;
+    } @else if($item == bicicleta) {
+      margin: 20px;
+    } @else if($item == aviao) {
+      margin: 10px;
+    } @else {
+      margin: 5px;
+    }
+
+    background-image: url("img/#{$item}.png");
+  }
+}

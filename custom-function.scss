@@ -1,0 +1,7 @@
+@function multi($val1, $val2: 80) {
+  @return #{$val1 * $val2}px;
+}
+
+button {
+  margin: multi(15, 30);
+}

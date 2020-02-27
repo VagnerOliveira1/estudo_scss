@@ -1,0 +1,20 @@
+.carro {
+  padding: 20px;
+  margin: 5px;
+  background-image: url("img/carro.png");
+}
+
+.moto {
+  margin: 30px;
+  background-image: url("img/moto.png");
+}
+
+.bicicleta {
+  margin: 20px;
+  background-image: url("img/bicicleta.png");
+}
+
+.aviao {
+  margin: 10px;
+  background-image: url("img/aviao.png");
+}

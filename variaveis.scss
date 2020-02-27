@@ -1,0 +1,17 @@
+$font: "Arial";
+$primary: #111;
+
+body {
+  $localVar: #000;
+  $globalVar: #ddd !global;
+  $primary: #f00;
+
+  font-family: $font;
+  background-color: $primary;
+}
+
+#main-header {
+  /*color:$localVar;*/
+  background-color: $globalVar;
+  border-color: $primary;
+}
